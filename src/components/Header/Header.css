@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 880px;
+    max-height: 74px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top: 45px;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+.header__logo {
+    max-width: 142px;
+    min-height: 33px;
+    margin-bottom: 41px;
+    background-size: cover;
+    object-fit: contain;
+}
