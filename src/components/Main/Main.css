@@ -1,7 +1,9 @@
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: auto;
 }
 
 .main__header {
@@ -41,6 +43,8 @@
 }
 
 .main__quote{
+    max-width: 880px;
     margin: 0 auto;
     color: #FFFFFF;
+    margin-bottom: 40px;
 }
