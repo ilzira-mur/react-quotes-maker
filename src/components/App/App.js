@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className="page">
       <Header />
       <Main onGetQuote={handleQuote} author={author} body={body} />
       <Footer /> 

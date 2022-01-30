@@ -1,8 +1,7 @@
-.app {
-  margin: 0 auto;
+.page {
+  margin: 0;
   padding: 0;
   font-family: 'Inter', Arial, sans-serif;
-  width: 100%;
   background: #202020;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,6 +11,9 @@
   -moz-text-size-adjust: 100%;
 }
 
-.root {
-  background: #202020;
+.body {
+  background-color: #202020;
+  width : 100%;
+  margin: 0;
+  padding: 0;
 }
